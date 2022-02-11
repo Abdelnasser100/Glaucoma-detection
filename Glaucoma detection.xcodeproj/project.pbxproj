@@ -3,29 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CF839D38CB94124A4ADDF37 /* Pods_Glaucoma_detection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E27E0E3325CDD7683CF1400 /* Pods_Glaucoma_detection.framework */; };
 		C21207592743BBA200C0EAA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21207582743BBA200C0EAA8 /* AppDelegate.swift */; };
 		C212075B2743BBA200C0EAA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212075A2743BBA200C0EAA8 /* SceneDelegate.swift */; };
-		C212075D2743BBA200C0EAA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212075C2743BBA200C0EAA8 /* ViewController.swift */; };
+		C212075D2743BBA200C0EAA8 /* OnboarderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212075C2743BBA200C0EAA8 /* OnboarderViewController.swift */; };
 		C21207602743BBA200C0EAA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C212075E2743BBA200C0EAA8 /* Main.storyboard */; };
 		C21207632743BBA200C0EAA8 /* Glaucoma_detection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C21207612743BBA200C0EAA8 /* Glaucoma_detection.xcdatamodeld */; };
 		C21207652743BBA900C0EAA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21207642743BBA900C0EAA8 /* Assets.xcassets */; };
 		C21207682743BBA900C0EAA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21207662743BBA900C0EAA8 /* LaunchScreen.storyboard */; };
+		C21207712743BD0400C0EAA8 /* OnboarederSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21207702743BD0400C0EAA8 /* OnboarederSlide.swift */; };
+		C21207742743BDEB00C0EAA8 /* OnborderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21207732743BDEB00C0EAA8 /* OnborderCollectionViewCell.swift */; };
+		C21207812743C96500C0EAA8 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212077C2743C96500C0EAA8 /* String+Extension.swift */; };
+		C21207822743C96500C0EAA8 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212077D2743C96500C0EAA8 /* UIViewController+Extension.swift */; };
+		C21207832743C96500C0EAA8 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212077E2743C96500C0EAA8 /* UserDefaults+Extension.swift */; };
+		C21207842743C96500C0EAA8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C212077F2743C96500C0EAA8 /* UIView+Extension.swift */; };
+		C21207892743C9AA00C0EAA8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21207882743C9AA00C0EAA8 /* CardView.swift */; };
+		C252ED7A274EBC870052D3DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C252ED79274EBC870052D3DB /* HomeViewController.swift */; };
+		C252ED80274EC9790052D3DB /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C252ED7F274EC9790052D3DB /* ReportViewController.swift */; };
+		C28A2CAE27B5B3DF00D8A66B /* Global Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28A2CAD27B5B3DF00D8A66B /* Global Function.swift */; };
+		C28FAE1027B4463F00DA7087 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C28FAE0F27B4463E00DA7087 /* GoogleService-Info.plist */; };
+		C29C57EF27B510D100679FD2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C57EE27B510D100679FD2 /* Constant.swift */; };
+		C29C57F327B523BA00679FD2 /* FileStorge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C57F227B523BA00679FD2 /* FileStorge.swift */; };
+		C29C57F727B5281400679FD2 /* FUserListner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C57F627B5281400679FD2 /* FUserListner.swift */; };
+		C29C57FA27B52ABB00679FD2 /* FCollectionRefrence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C57F927B52ABB00679FD2 /* FCollectionRefrence.swift */; };
+		C29C57FD27B52B7100679FD2 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C57FC27B52B7100679FD2 /* Extention.swift */; };
+		C2EC33512746CE6E003CADC1 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EC33502746CE6E003CADC1 /* SignViewController.swift */; };
+		C2F8DE4327B45B83005A67B7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F8DE4227B45B83005A67B7 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EE862542C903AB7DC1D7307 /* Pods-Glaucoma detection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glaucoma detection.release.xcconfig"; path = "Target Support Files/Pods-Glaucoma detection/Pods-Glaucoma detection.release.xcconfig"; sourceTree = "<group>"; };
+		2E27E0E3325CDD7683CF1400 /* Pods_Glaucoma_detection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Glaucoma_detection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21207552743BBA200C0EAA8 /* Glaucoma detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glaucoma detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21207582743BBA200C0EAA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C212075A2743BBA200C0EAA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C212075C2743BBA200C0EAA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C212075C2743BBA200C0EAA8 /* OnboarderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboarderViewController.swift; sourceTree = "<group>"; };
 		C212075F2743BBA200C0EAA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C21207622743BBA200C0EAA8 /* Glaucoma_detection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Glaucoma_detection.xcdatamodel; sourceTree = "<group>"; };
 		C21207642743BBA900C0EAA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C21207672743BBA900C0EAA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C21207692743BBA900C0EAA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21207702743BD0400C0EAA8 /* OnboarederSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboarederSlide.swift; sourceTree = "<group>"; };
+		C21207732743BDEB00C0EAA8 /* OnborderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnborderCollectionViewCell.swift; sourceTree = "<group>"; };
+		C212077C2743C96500C0EAA8 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		C212077D2743C96500C0EAA8 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		C212077E2743C96500C0EAA8 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		C212077F2743C96500C0EAA8 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C21207882743C9AA00C0EAA8 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C252ED79274EBC870052D3DB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C252ED7F274EC9790052D3DB /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		C28A2CAD27B5B3DF00D8A66B /* Global Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global Function.swift"; sourceTree = "<group>"; };
+		C28FAE0F27B4463E00DA7087 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C29C57EE27B510D100679FD2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C29C57F227B523BA00679FD2 /* FileStorge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorge.swift; sourceTree = "<group>"; };
+		C29C57F627B5281400679FD2 /* FUserListner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUserListner.swift; sourceTree = "<group>"; };
+		C29C57F927B52ABB00679FD2 /* FCollectionRefrence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCollectionRefrence.swift; sourceTree = "<group>"; };
+		C29C57FC27B52B7100679FD2 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		C2EC33502746CE6E003CADC1 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		C2F8DE4227B45B83005A67B7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EF8BE142911ED1816F10CC6B /* Pods-Glaucoma detection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glaucoma detection.debug.xcconfig"; path = "Target Support Files/Pods-Glaucoma detection/Pods-Glaucoma detection.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +73,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF839D38CB94124A4ADDF37 /* Pods_Glaucoma_detection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AC35131D17001B83F7BC9E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E27E0E3325CDD7683CF1400 /* Pods_Glaucoma_detection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B1E52DE131C65D3F20D94BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF8BE142911ED1816F10CC6B /* Pods-Glaucoma detection.debug.xcconfig */,
+				0EE862542C903AB7DC1D7307 /* Pods-Glaucoma detection.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C212074C2743BBA200C0EAA8 = {
 			isa = PBXGroup;
 			children = (
 				C21207572743BBA200C0EAA8 /* Glaucoma detection */,
 				C21207562743BBA200C0EAA8 /* Products */,
+				1B1E52DE131C65D3F20D94BC /* Pods */,
+				0AC35131D17001B83F7BC9E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +118,130 @@
 		C21207572743BBA200C0EAA8 /* Glaucoma detection */ = {
 			isa = PBXGroup;
 			children = (
+				C212077A2743C94E00C0EAA8 /* Extention */,
+				C21207862743C97B00C0EAA8 /* custemView */,
+				C21207782743C92000C0EAA8 /* ViewController */,
+				C29C57F127B5239F00679FD2 /* Firebase */,
+				C21207792743C93D00C0EAA8 /* Model */,
+				C21207772743C91000C0EAA8 /* View */,
+				C29C57ED27B510B900679FD2 /* Helpers */,
 				C21207582743BBA200C0EAA8 /* AppDelegate.swift */,
 				C212075A2743BBA200C0EAA8 /* SceneDelegate.swift */,
-				C212075C2743BBA200C0EAA8 /* ViewController.swift */,
-				C212075E2743BBA200C0EAA8 /* Main.storyboard */,
 				C21207642743BBA900C0EAA8 /* Assets.xcassets */,
-				C21207662743BBA900C0EAA8 /* LaunchScreen.storyboard */,
 				C21207692743BBA900C0EAA8 /* Info.plist */,
 				C21207612743BBA200C0EAA8 /* Glaucoma_detection.xcdatamodeld */,
 			);
 			path = "Glaucoma detection";
+			sourceTree = "<group>";
+		};
+		C21207772743C91000C0EAA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C21207662743BBA900C0EAA8 /* LaunchScreen.storyboard */,
+				C212075E2743BBA200C0EAA8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C21207782743C92000C0EAA8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C252ED7D274EC94E0052D3DB /* Report */,
+				C252ED78274EBC740052D3DB /* Home */,
+				C2EC334F2746CE4D003CADC1 /* SignIn */,
+				C2EC334E2746CE32003CADC1 /* Onborder */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C21207792743C93D00C0EAA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C21207702743BD0400C0EAA8 /* OnboarederSlide.swift */,
+				C2F8DE4227B45B83005A67B7 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C212077A2743C94E00C0EAA8 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				C212077C2743C96500C0EAA8 /* String+Extension.swift */,
+				C212077F2743C96500C0EAA8 /* UIView+Extension.swift */,
+				C212077D2743C96500C0EAA8 /* UIViewController+Extension.swift */,
+				C212077E2743C96500C0EAA8 /* UserDefaults+Extension.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		C21207862743C97B00C0EAA8 /* custemView */ = {
+			isa = PBXGroup;
+			children = (
+				C21207872743C99400C0EAA8 /* CardView */,
+			);
+			path = custemView;
+			sourceTree = "<group>";
+		};
+		C21207872743C99400C0EAA8 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				C21207882743C9AA00C0EAA8 /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		C252ED78274EBC740052D3DB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C252ED79274EBC870052D3DB /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C252ED7D274EC94E0052D3DB /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				C252ED7F274EC9790052D3DB /* ReportViewController.swift */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		C29C57ED27B510B900679FD2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C29C57EE27B510D100679FD2 /* Constant.swift */,
+				C29C57FC27B52B7100679FD2 /* Extention.swift */,
+				C28A2CAD27B5B3DF00D8A66B /* Global Function.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C29C57F127B5239F00679FD2 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				C28FAE0F27B4463E00DA7087 /* GoogleService-Info.plist */,
+				C29C57F227B523BA00679FD2 /* FileStorge.swift */,
+				C29C57F627B5281400679FD2 /* FUserListner.swift */,
+				C29C57F927B52ABB00679FD2 /* FCollectionRefrence.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		C2EC334E2746CE32003CADC1 /* Onborder */ = {
+			isa = PBXGroup;
+			children = (
+				C212075C2743BBA200C0EAA8 /* OnboarderViewController.swift */,
+				C21207732743BDEB00C0EAA8 /* OnborderCollectionViewCell.swift */,
+			);
+			path = Onborder;
+			sourceTree = "<group>";
+		};
+		C2EC334F2746CE4D003CADC1 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				C2EC33502746CE6E003CADC1 /* SignViewController.swift */,
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C212076C2743BBA900C0EAA8 /* Build configuration list for PBXNativeTarget "Glaucoma detection" */;
 			buildPhases = (
+				28C4D5516B450AD7EE4F2EC3 /* [CP] Check Pods Manifest.lock */,
 				C21207512743BBA200C0EAA8 /* Sources */,
 				C21207522743BBA200C0EAA8 /* Frameworks */,
 				C21207532743BBA200C0EAA8 /* Resources */,
+				430CBB671A40C9BFBC72EE6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C21207682743BBA900C0EAA8 /* LaunchScreen.storyboard in Resources */,
+				C28FAE1027B4463F00DA7087 /* GoogleService-Info.plist in Resources */,
 				C21207652743BBA900C0EAA8 /* Assets.xcassets in Resources */,
 				C21207602743BBA200C0EAA8 /* Main.storyboard in Resources */,
 			);
@@ -135,14 +312,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28C4D5516B450AD7EE4F2EC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Glaucoma detection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		430CBB671A40C9BFBC72EE6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Glaucoma detection/Pods-Glaucoma detection-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Glaucoma detection/Pods-Glaucoma detection-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Glaucoma detection/Pods-Glaucoma detection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C21207512743BBA200C0EAA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C212075D2743BBA200C0EAA8 /* ViewController.swift in Sources */,
+				C21207842743C96500C0EAA8 /* UIView+Extension.swift in Sources */,
+				C21207822743C96500C0EAA8 /* UIViewController+Extension.swift in Sources */,
+				C29C57FA27B52ABB00679FD2 /* FCollectionRefrence.swift in Sources */,
+				C21207812743C96500C0EAA8 /* String+Extension.swift in Sources */,
+				C29C57FD27B52B7100679FD2 /* Extention.swift in Sources */,
+				C29C57EF27B510D100679FD2 /* Constant.swift in Sources */,
+				C21207742743BDEB00C0EAA8 /* OnborderCollectionViewCell.swift in Sources */,
+				C21207712743BD0400C0EAA8 /* OnboarederSlide.swift in Sources */,
+				C212075D2743BBA200C0EAA8 /* OnboarderViewController.swift in Sources */,
+				C252ED80274EC9790052D3DB /* ReportViewController.swift in Sources */,
 				C21207592743BBA200C0EAA8 /* AppDelegate.swift in Sources */,
+				C2F8DE4327B45B83005A67B7 /* User.swift in Sources */,
+				C29C57F327B523BA00679FD2 /* FileStorge.swift in Sources */,
+				C2EC33512746CE6E003CADC1 /* SignViewController.swift in Sources */,
 				C21207632743BBA200C0EAA8 /* Glaucoma_detection.xcdatamodeld in Sources */,
+				C29C57F727B5281400679FD2 /* FUserListner.swift in Sources */,
+				C21207832743C96500C0EAA8 /* UserDefaults+Extension.swift in Sources */,
+				C28A2CAE27B5B3DF00D8A66B /* Global Function.swift in Sources */,
+				C21207892743C9AA00C0EAA8 /* CardView.swift in Sources */,
+				C252ED7A274EBC870052D3DB /* HomeViewController.swift in Sources */,
 				C212075B2743BBA200C0EAA8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +523,7 @@
 		};
 		C212076D2743BBA900C0EAA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF8BE142911ED1816F10CC6B /* Pods-Glaucoma detection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +542,7 @@
 		};
 		C212076E2743BBA900C0EAA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE862542C903AB7DC1D7307 /* Pods-Glaucoma detection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

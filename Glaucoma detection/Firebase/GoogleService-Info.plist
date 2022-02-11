@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>117325533782-92ft3rea4gvn2escvb5bt9o3uculslse.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.117325533782-92ft3rea4gvn2escvb5bt9o3uculslse</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCC7qOQlY17unQyOBqZqj775QLm7LmOLKU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>117325533782</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.abdelnasser.Glaucoma-detection</string>
+	<key>PROJECT_ID</key>
+	<string>glaucoma-detection-33d5a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>glaucoma-detection-33d5a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:117325533782:ios:a9023f0bf8862717f7e1f7</string>
+</dict>
+</plist>
