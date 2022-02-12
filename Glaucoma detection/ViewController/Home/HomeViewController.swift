@@ -20,7 +20,7 @@ class HomeViewController: UIViewController {
         menu?.leftSide = true
         SideMenuManager.default.addPanGestureToPresent(toView: view)
         SideMenuManager.default.leftMenuNavigationController = menu
-            
+        menu?.setNavigationBarHidden(true, animated: true)
     }
     
 

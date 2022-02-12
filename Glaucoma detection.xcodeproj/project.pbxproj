@@ -33,6 +33,8 @@
 		C29C57FA27B52ABB00679FD2 /* FCollectionRefrence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C57F927B52ABB00679FD2 /* FCollectionRefrence.swift */; };
 		C29C57FD27B52B7100679FD2 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C57FC27B52B7100679FD2 /* Extention.swift */; };
 		C2EC33512746CE6E003CADC1 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EC33502746CE6E003CADC1 /* SignViewController.swift */; };
+		C2F71D3027B81E650046F7D5 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F71D2F27B81E650046F7D5 /* SettingTableViewController.swift */; };
+		C2F71D3427B833A50046F7D5 /* EditeProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F71D3327B833A50046F7D5 /* EditeProfileTableViewController.swift */; };
 		C2F8DE4327B45B83005A67B7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F8DE4227B45B83005A67B7 /* User.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,8 @@
 		C29C57F927B52ABB00679FD2 /* FCollectionRefrence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCollectionRefrence.swift; sourceTree = "<group>"; };
 		C29C57FC27B52B7100679FD2 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
 		C2EC33502746CE6E003CADC1 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		C2F71D2F27B81E650046F7D5 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		C2F71D3327B833A50046F7D5 /* EditeProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditeProfileTableViewController.swift; sourceTree = "<group>"; };
 		C2F8DE4227B45B83005A67B7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EF8BE142911ED1816F10CC6B /* Pods-Glaucoma detection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glaucoma detection.debug.xcconfig"; path = "Target Support Files/Pods-Glaucoma detection/Pods-Glaucoma detection.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				C252ED7D274EC94E0052D3DB /* Report */,
+				C2F71D2E27B81E430046F7D5 /* Setting */,
 				C25B617E27B7B5CC00BF0B32 /* sideMenue */,
 				C252ED78274EBC740052D3DB /* Home */,
 				C2EC334F2746CE4D003CADC1 /* SignIn */,
@@ -253,6 +258,15 @@
 				C2EC33502746CE6E003CADC1 /* SignViewController.swift */,
 			);
 			path = SignIn;
+			sourceTree = "<group>";
+		};
+		C2F71D2E27B81E430046F7D5 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				C2F71D2F27B81E650046F7D5 /* SettingTableViewController.swift */,
+				C2F71D3327B833A50046F7D5 /* EditeProfileTableViewController.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,10 +395,12 @@
 				C21207712743BD0400C0EAA8 /* OnboarederSlide.swift in Sources */,
 				C212075D2743BBA200C0EAA8 /* OnboarderViewController.swift in Sources */,
 				C252ED80274EC9790052D3DB /* ReportViewController.swift in Sources */,
+				C2F71D3427B833A50046F7D5 /* EditeProfileTableViewController.swift in Sources */,
 				C21207592743BBA200C0EAA8 /* AppDelegate.swift in Sources */,
 				C2F8DE4327B45B83005A67B7 /* User.swift in Sources */,
 				C29C57F327B523BA00679FD2 /* FileStorge.swift in Sources */,
 				C2EC33512746CE6E003CADC1 /* SignViewController.swift in Sources */,
+				C2F71D3027B81E650046F7D5 /* SettingTableViewController.swift in Sources */,
 				C21207632743BBA200C0EAA8 /* Glaucoma_detection.xcdatamodeld in Sources */,
 				C29C57F727B5281400679FD2 /* FUserListner.swift in Sources */,
 				C21207832743C96500C0EAA8 /* UserDefaults+Extension.swift in Sources */,

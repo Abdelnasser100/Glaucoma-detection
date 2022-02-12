@@ -6,24 +6,27 @@
 //
 
 import UIKit
+import SideMenu
 
 class ReportViewController: UIViewController {
 
+    //MARK: - Vars
+    var menu:SideMenuNavigationController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        menu = SideMenuNavigationController(rootViewController: MenuTableViewController())
+        menu?.leftSide = true
+        SideMenuManager.default.addPanGestureToPresent(toView: view)
+        SideMenuManager.default.leftMenuNavigationController = menu
+        menu?.setNavigationBarHidden(true, animated: true)
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func sideMenuBtu(_ sender: UIBarButtonItem) {
+        present(menu!, animated: true, completion: nil)
     }
-    */
+    
 
 }

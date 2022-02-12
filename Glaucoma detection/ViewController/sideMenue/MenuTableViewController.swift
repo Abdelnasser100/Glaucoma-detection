@@ -15,6 +15,8 @@ class MenuTableViewController: UITableViewController {
         super.viewDidLoad()
 
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.tableFooterView = UIView()
+        tableView.backgroundColor = .systemYellow
     }
 
     // MARK: - Table view data source
@@ -34,9 +36,34 @@ class MenuTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel!.text = data[indexPath.row]
         
+        switch indexPath.row {
+        case 0:
+            cell.imageView?.image = UIImage(systemName: "person")
+        case 1:
+            cell.imageView?.image = UIImage(systemName: "pencil")
+        case 2:
+            cell.imageView?.image = UIImage(systemName: "exclamationmark.circle.fill")
+        default:
+            break
+        }
+        
+        cell.backgroundColor = .systemYellow
         return cell
     }
 
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.section == 0 && indexPath.row == 1 {
+          goToSetting()
+        }
+    }
 
+    private func goToSetting(){
+        
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "Setting")as! UINavigationController
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+        
+    }
     
 }
