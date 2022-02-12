@@ -642,22 +642,22 @@
             </objects>
             <point key="canvasLocation" x="4163.768115942029" y="-312.05357142857139"/>
         </scene>
-        <!--Setting-->
+        <!--Profile-->
         <scene sceneID="TSF-6k-1pe">
             <objects>
                 <tableViewController storyboardIdentifier="SettingTableViewController" id="nBH-uf-Bsd" customClass="SettingTableViewController" customModule="Glaucoma_detection" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="3" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="9NP-RR-Hk0">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="3" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="9NP-RR-Hk0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <sections>
                             <tableViewSection id="pw8-Fa-koB">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="112" id="YD6-rZ-qP3">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="112" id="YD6-rZ-qP3">
                                         <rect key="frame" x="0.0" y="28" width="414" height="112"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YD6-rZ-qP3" id="kn0-3E-RCt">
-                                            <rect key="frame" x="0.0" y="0.0" width="383" height="112"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="112"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avater" translatesAutoresizingMaskIntoConstraints="NO" id="DP8-3n-pEe">
@@ -668,7 +668,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BiO-SL-yEW">
-                                                    <rect key="frame" x="92" y="40" width="266" height="33"/>
+                                                    <rect key="frame" x="92" y="40" width="285" height="33"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="33" id="aKD-ar-sNG"/>
                                                     </constraints>
@@ -692,7 +692,7 @@
                             </tableViewSection>
                             <tableViewSection id="BrI-3V-psP">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="AkY-DE-EDc">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="AkY-DE-EDc">
                                         <rect key="frame" x="0.0" y="196" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AkY-DE-EDc" id="LGc-Hk-EXX">
@@ -705,6 +705,7 @@
                                                     <state key="normal" title="Edit Profile"/>
                                                     <connections>
                                                         <action selector="editProfileBtn:" destination="nBH-uf-Bsd" eventType="touchUpInside" id="jV0-Vd-3ou"/>
+                                                        <segue destination="8Ac-7h-krv" kind="push" identifier="edit" id="PLe-LL-J1p"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -716,15 +717,15 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="db4-bA-UOx">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="db4-bA-UOx">
                                         <rect key="frame" x="0.0" y="239.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="db4-bA-UOx" id="nro-p5-Yo9">
-                                            <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="about" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbe-XA-uou">
-                                                    <rect key="frame" x="38" y="11" width="44" height="22"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="about" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbe-XA-uou">
+                                                    <rect key="frame" x="20" y="11" width="62" height="22"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="22" id="CCI-TA-Ogh"/>
                                                     </constraints>
@@ -806,7 +807,7 @@
                             <outlet property="delegate" destination="nBH-uf-Bsd" id="9lO-D4-s6G"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Setting" id="NG8-sQ-wLh"/>
+                    <navigationItem key="navigationItem" title="Profile" id="NG8-sQ-wLh"/>
                     <connections>
                         <outlet property="appVersion" destination="Okl-O8-3v0" id="Nuy-g6-U4G"/>
                         <outlet property="avatarImageView" destination="DP8-3n-pEe" id="UGc-mh-XdX"/>
@@ -815,12 +816,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O45-wq-AUX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5006" y="404"/>
+            <point key="canvasLocation" x="5005.7971014492759" y="403.79464285714283"/>
         </scene>
         <!--Edite Profile Table View Controller-->
         <scene sceneID="w0d-nx-qXZ">
             <objects>
-                <tableViewController storyboardIdentifier="edit" id="8Ac-7h-krv" customClass="EditeProfileTableViewController" customModule="Glaucoma_detection" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="8Ac-7h-krv" customClass="EditeProfileTableViewController" customModule="Glaucoma_detection" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="y5I-0A-zX7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -914,6 +915,7 @@
                             <outlet property="delegate" destination="8Ac-7h-krv" id="pZq-1q-fGQ"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="QNr-1n-Mme"/>
                     <connections>
                         <outlet property="avatarImage" destination="mcd-KS-5ic" id="XO3-PN-LIU"/>
                         <outlet property="userNameTextFiled" destination="QWM-Be-vIs" id="vVr-Mf-RsO"/>

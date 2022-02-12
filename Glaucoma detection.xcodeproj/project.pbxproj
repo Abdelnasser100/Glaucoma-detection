@@ -31,7 +31,6 @@
 		C29C57F327B523BA00679FD2 /* FileStorge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C57F227B523BA00679FD2 /* FileStorge.swift */; };
 		C29C57F727B5281400679FD2 /* FUserListner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C57F627B5281400679FD2 /* FUserListner.swift */; };
 		C29C57FA27B52ABB00679FD2 /* FCollectionRefrence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C57F927B52ABB00679FD2 /* FCollectionRefrence.swift */; };
-		C29C57FD27B52B7100679FD2 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C57FC27B52B7100679FD2 /* Extention.swift */; };
 		C2EC33512746CE6E003CADC1 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EC33502746CE6E003CADC1 /* SignViewController.swift */; };
 		C2F71D3027B81E650046F7D5 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F71D2F27B81E650046F7D5 /* SettingTableViewController.swift */; };
 		C2F71D3427B833A50046F7D5 /* EditeProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F71D3327B833A50046F7D5 /* EditeProfileTableViewController.swift */; };
@@ -66,7 +65,6 @@
 		C29C57F227B523BA00679FD2 /* FileStorge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorge.swift; sourceTree = "<group>"; };
 		C29C57F627B5281400679FD2 /* FUserListner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUserListner.swift; sourceTree = "<group>"; };
 		C29C57F927B52ABB00679FD2 /* FCollectionRefrence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCollectionRefrence.swift; sourceTree = "<group>"; };
-		C29C57FC27B52B7100679FD2 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
 		C2EC33502746CE6E003CADC1 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
 		C2F71D2F27B81E650046F7D5 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		C2F71D3327B833A50046F7D5 /* EditeProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditeProfileTableViewController.swift; sourceTree = "<group>"; };
@@ -226,7 +224,6 @@
 			isa = PBXGroup;
 			children = (
 				C29C57EE27B510D100679FD2 /* Constant.swift */,
-				C29C57FC27B52B7100679FD2 /* Extention.swift */,
 				C28A2CAD27B5B3DF00D8A66B /* Global Function.swift */,
 			);
 			path = Helpers;
@@ -389,7 +386,6 @@
 				C260788A27B7EDFA00883BB6 /* MenuTableViewController.swift in Sources */,
 				C29C57FA27B52ABB00679FD2 /* FCollectionRefrence.swift in Sources */,
 				C21207812743C96500C0EAA8 /* String+Extension.swift in Sources */,
-				C29C57FD27B52B7100679FD2 /* Extention.swift in Sources */,
 				C29C57EF27B510D100679FD2 /* Constant.swift in Sources */,
 				C21207742743BDEB00C0EAA8 /* OnborderCollectionViewCell.swift in Sources */,
 				C21207712743BD0400C0EAA8 /* OnboarederSlide.swift in Sources */,

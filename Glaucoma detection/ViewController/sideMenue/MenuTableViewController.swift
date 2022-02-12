@@ -58,6 +58,8 @@ class MenuTableViewController: UITableViewController {
         }
     }
 
+    //MARK: - Do to setting
+    
     private func goToSetting(){
         
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "Setting")as! UINavigationController

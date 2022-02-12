@@ -79,7 +79,8 @@ class SettingTableViewController: UITableViewController {
         appVersion.text = "App Version \(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "")"
         if user.avatarLink != ""{
             FileStorage.downloadImage(imageUrl: user.avatarLink) { (avatarImage) in
-                self.avatarImageView.image = avatarImage?.circleMasked
+                self.avatarImageView.image = avatarImage
+                self.avatarImageView.cornerRadius = 40
             }
         }
     }
