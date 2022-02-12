@@ -142,7 +142,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pVh-ue-o4L" customClass="CardView" customModule="Glaucoma_detection" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pVh-ue-o4L" customClass="CardView" customModule="Glaucoma_detection" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="353" width="414" height="543"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fall The Follwing Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FzL-2J-gA7">
@@ -160,7 +160,7 @@
                                             <constraint firstAttribute="height" constant="50" id="Ip8-iM-rjZ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <real key="value" value="10"/>
@@ -173,7 +173,7 @@
                                             <constraint firstAttribute="height" constant="50" id="zhn-Gq-pqW"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="🔓Conferm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4CC-k3-fKB">
                                         <rect key="frame" x="54" y="207" width="306" height="50"/>
@@ -181,7 +181,7 @@
                                             <constraint firstAttribute="height" constant="50" id="yMa-si-K9u"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VkB-Cb-RQt">
                                         <rect key="frame" x="284" y="271" width="76" height="30"/>
@@ -343,7 +343,7 @@
                                     <constraint firstAttribute="trailing" secondItem="tCp-HO-d1u" secondAttribute="trailing" constant="119" id="xkJ-7t-uiL"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q43-Ud-Glx" customClass="CardView" customModule="Glaucoma_detection" customModuleProvider="target">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q43-Ud-Glx" customClass="CardView" customModule="Glaucoma_detection" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="353" width="414" height="543"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fall The Follwing Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jlv-qD-YBu">
@@ -361,7 +361,7 @@
                                             <constraint firstAttribute="height" constant="50" id="Krt-0l-plF"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardAppearance="alert" enablesReturnKeyAutomatically="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <real key="value" value="10"/>
@@ -374,7 +374,7 @@
                                             <constraint firstAttribute="height" constant="50" id="t11-bZ-afG"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNJ-r4-2tg">
                                         <rect key="frame" x="241" y="220" width="119" height="30"/>
@@ -629,7 +629,13 @@
                             <constraint firstItem="lEJ-jt-IzA" firstAttribute="bottom" secondItem="QdE-7y-RPu" secondAttribute="bottom" constant="40" id="nKW-gh-8ef"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Glaucoma Detection" id="k83-cP-1rU"/>
+                    <navigationItem key="navigationItem" title="Glaucoma Detection" id="k83-cP-1rU">
+                        <barButtonItem key="leftBarButtonItem" image="text.justify" catalog="system" id="muE-04-KsF">
+                            <connections>
+                                <action selector="sideMenu:" destination="j63-h3-hpf" id="9bU-Ry-jrX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X32-Ge-2IE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -889,6 +895,7 @@
         <image name="gallery_empty_view_image.png" width="72" height="49"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="person" catalog="system" width="128" height="117"/>
+        <image name="text.justify" catalog="system" width="128" height="100"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

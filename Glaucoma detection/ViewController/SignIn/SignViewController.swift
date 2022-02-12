@@ -85,6 +85,7 @@ class SignViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    
     @IBAction func signUpClick(_ sender: UIButton) {
         swapMainView(button: signUpBtuOutLit)
     }
@@ -92,6 +93,7 @@ class SignViewController: UIViewController, UITextFieldDelegate {
     @IBAction func signInClick(_ sender: UIButton) {
          swapMainView(button: signInBtnOutLit)
     }
+    
     
     //MARK: - swap betwen View
     

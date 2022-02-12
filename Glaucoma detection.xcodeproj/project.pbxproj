@@ -24,6 +24,7 @@
 		C21207892743C9AA00C0EAA8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21207882743C9AA00C0EAA8 /* CardView.swift */; };
 		C252ED7A274EBC870052D3DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C252ED79274EBC870052D3DB /* HomeViewController.swift */; };
 		C252ED80274EC9790052D3DB /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C252ED7F274EC9790052D3DB /* ReportViewController.swift */; };
+		C260788A27B7EDFA00883BB6 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C260788927B7EDFA00883BB6 /* MenuTableViewController.swift */; };
 		C28A2CAE27B5B3DF00D8A66B /* Global Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28A2CAD27B5B3DF00D8A66B /* Global Function.swift */; };
 		C28FAE1027B4463F00DA7087 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C28FAE0F27B4463E00DA7087 /* GoogleService-Info.plist */; };
 		C29C57EF27B510D100679FD2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29C57EE27B510D100679FD2 /* Constant.swift */; };
@@ -56,6 +57,7 @@
 		C21207882743C9AA00C0EAA8 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C252ED79274EBC870052D3DB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C252ED7F274EC9790052D3DB /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		C260788927B7EDFA00883BB6 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		C28A2CAD27B5B3DF00D8A66B /* Global Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global Function.swift"; sourceTree = "<group>"; };
 		C28FAE0F27B4463E00DA7087 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C29C57EE27B510D100679FD2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				C252ED7D274EC94E0052D3DB /* Report */,
+				C25B617E27B7B5CC00BF0B32 /* sideMenue */,
 				C252ED78274EBC740052D3DB /* Home */,
 				C2EC334F2746CE4D003CADC1 /* SignIn */,
 				C2EC334E2746CE32003CADC1 /* Onborder */,
@@ -204,6 +207,14 @@
 				C252ED7F274EC9790052D3DB /* ReportViewController.swift */,
 			);
 			path = Report;
+			sourceTree = "<group>";
+		};
+		C25B617E27B7B5CC00BF0B32 /* sideMenue */ = {
+			isa = PBXGroup;
+			children = (
+				C260788927B7EDFA00883BB6 /* MenuTableViewController.swift */,
+			);
+			path = sideMenue;
 			sourceTree = "<group>";
 		};
 		C29C57ED27B510B900679FD2 /* Helpers */ = {
@@ -361,6 +372,7 @@
 			files = (
 				C21207842743C96500C0EAA8 /* UIView+Extension.swift in Sources */,
 				C21207822743C96500C0EAA8 /* UIViewController+Extension.swift in Sources */,
+				C260788A27B7EDFA00883BB6 /* MenuTableViewController.swift in Sources */,
 				C29C57FA27B52ABB00679FD2 /* FCollectionRefrence.swift in Sources */,
 				C21207812743C96500C0EAA8 /* String+Extension.swift in Sources */,
 				C29C57FD27B52B7100679FD2 /* Extention.swift in Sources */,
