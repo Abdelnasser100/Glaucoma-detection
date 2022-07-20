@@ -1,6 +1,6 @@
 # Glaucoma-detection
 
-Using Mashine Learning To Classification Image of Gloacoma Dtection
+Using Machine Learning To Classification Image of Gloacoma Dtection
 
 # Screenshots
 
